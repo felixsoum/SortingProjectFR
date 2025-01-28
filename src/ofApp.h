@@ -3,6 +3,8 @@
 #include "ofMain.h"
 
 class ofApp : public ofBaseApp{
+	private:
+		std::vector<int> circles;
 
 	public:
 		void setup();
